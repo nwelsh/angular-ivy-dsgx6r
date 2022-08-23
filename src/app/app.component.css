@@ -137,3 +137,15 @@ body {
 
   color: #FFFFFF;
 }
+
+/* line in nav bar */
+.vl {
+position: absolute;
+width: 53px;
+height: 0px;
+left: 60%;
+top: 25px;
+
+border: 0.25px solid rgba(102, 102, 102, 0.6);
+transform: rotate(-90deg);
+}
