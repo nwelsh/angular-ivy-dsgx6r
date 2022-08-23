@@ -32,21 +32,48 @@ body {
 
 .navbar {
   position: absolute;
-width: 1440px;
-height: 53px;
-left: 0px;
-top: 0px;
+  width: 1440px;
+  height: 53px;
+  left: 0px;
+  top: 0px;
 
-/* White */
+  /* White */
 
-background: #FFFFFF;
+  background: #FFFFFF;
 }
 
+/* Search bar */
 .navbar input[type=text] {
-  float: left;
-  padding: 6px;
-  border: none;
-  margin-top: 8px;
-  margin-right: 16px;
-  font-size: 17px;
+  position: absolute;
+  width: 280px;
+  height: 34px;
+  left: 0px;
+  top: 5px;
+  margin-left: 16px;
+
+  background: #EEF3F8;
+  border-radius: 4px;
+  clear: both;
 }
+
+/* Tabs */
+.navbar a {
+  float: right; /* added */
+  left: 0%;
+  right: 0%;
+  top: 58.82%;
+  bottom: 11.76%;
+  margin-left: 20px;
+  position: relative;
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  color: #A3A3A3;
+
+  /* width: 50%; */
+}
+
