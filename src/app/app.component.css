@@ -514,23 +514,20 @@ body {
 
 #left {
     position: absolute;
-    width: 870px;
-    height: 764px;
-    left: 136px;
-    top: 324px;
+width: 870px;
+height: 576px;
+left: 136px;
+top: 324px;
 
-    background: #FFFFFF;
-    border: 1px solid rgba(224, 224, 224, 0.6);
-    border-radius: 8px;
+background: #FFFFFF;
+border: 1px solid rgba(224, 224, 224, 0.6);
+border-radius: 8px;
 }
 
-#post-1{
+#posts{
     position: absolute;
-width: 206.54px;
-height: 208.72px;
-left: 135.14px;
-top: 383px;
-
-/* background: url(image.png); */
-border-radius: 4px;
+    width: 206.54px;
+    height: 208.72px;
+    
+    border-radius: 4px;
 }
