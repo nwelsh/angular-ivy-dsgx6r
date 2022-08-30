@@ -514,20 +514,60 @@ body {
 
 #left {
     position: absolute;
-width: 870px;
-height: 576px;
-left: 136px;
-top: 324px;
+    width: 870px;
+    height: 576px;
+    left: 136px;
+    top: 324px;
 
-background: #FFFFFF;
-border: 1px solid rgba(224, 224, 224, 0.6);
-border-radius: 8px;
+    background: #FFFFFF;
+    border: 1px solid rgba(224, 224, 224, 0.6);
+    border-radius: 8px;
 }
 
-#posts{
+#posts {
     position: absolute;
     width: 206.54px;
     height: 208.72px;
-    
+
     border-radius: 4px;
+}
+
+#titles {
+    position: absolute;
+    width: 38px;
+    height: 21px;
+
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 21px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #575757;
+
+}
+
+#bigTag{
+    position: absolute;
+width: 797px;
+height: 1px;
+left: 10px;
+top: 44px;
+
+background: #E8E8E9;
+/* transform: matrix(1, 0, 0, -1, 0, 0); */
+}
+
+#currPage{
+    position: absolute;
+width: 197px;
+height: 2px;
+left: 10px;
+top: 44px;
+
+background: #575757;
 }
