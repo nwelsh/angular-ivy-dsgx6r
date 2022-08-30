@@ -572,21 +572,43 @@ body {
     background: #575757;
 }
 
-#desc{
+#desc {
     position: absolute;
-/* left: 11.62%; */
-/* right: 78.51%; */
-/* top: ; */
+    /* left: 11.62%; */
+    /* right: 78.51%; */
+    /* top: ; */
 
-font-family: 'Calibri';
-font-style: normal;
-font-weight: 700;
-font-size: 13px;
-line-height: 16px;
-display: flex;
-align-items: center;
-text-align: center;
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
 
-color: #A3A3A3;
+    color: #A3A3A3;
 
+}
+
+/* #hearts {
+    position: absolute;
+    left:145.5px;
+    top:571px;
+} */
+
+#likes {
+    position: absolute;
+    width: 13.94px;
+    height: 10.13px;
+
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
 }
