@@ -362,7 +362,7 @@ body {
 
 #current-position {
     position: absolute;
-    width: 299px;
+    /* width: 299px; */
     height: 16px;
     left: 203px;
     top: 25px;
@@ -376,6 +376,20 @@ body {
     align-items: center;
 
     color: #575757;
+}
+
+.connect-button-plus-h{
+    position: absolute;
+left: 69.8%;
+top: 84.88%;
+
+}
+
+.connect-button-plus-v{
+    position: absolute;
+left: 70.09%;
+top: 83.88%;
+
 }
 
 #job-role {
@@ -394,6 +408,10 @@ body {
     align-items: center;
 
     color: #A3A3A3;
+}
+
+#occupation {
+    color:#3686E1
 }
 
 .stats {
@@ -453,7 +471,7 @@ body {
 
 #job-description {
     position: absolute;
-    width: 365px;
+    /* width: 365px; */
     height: 32px;
     left: 203px;
     top: 97px;
@@ -472,7 +490,7 @@ body {
 
 #current-location {
     position: absolute;
-    width: 114px;
+    /* width: 114px; */
     height: 15px;
     left: 204px;
     top: 135px;
