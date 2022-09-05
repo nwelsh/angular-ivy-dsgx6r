@@ -378,17 +378,17 @@ body {
     color: #575757;
 }
 
-.connect-button-plus-h{
+.connect-button-plus-h {
     position: absolute;
-left: 69.75%;
-top: 85%;
+    left: 69.75%;
+    top: 85%;
 
 }
 
-.connect-button-plus-v{
+.connect-button-plus-v {
     position: absolute;
-left: 70.09%;
-top: 83.88%;
+    left: 70.09%;
+    top: 83.88%;
 
 }
 
@@ -411,7 +411,7 @@ top: 83.88%;
 }
 
 #occupation {
-    color:#3686E1;
+    color: #3686E1;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
@@ -562,7 +562,7 @@ top: 83.88%;
     font-weight: 700;
     font-size: 17px;
     line-height: 21px;
-    text-decoration:none;
+    text-decoration: none;
     /* identical to box height */
 
     display: flex;
@@ -632,4 +632,20 @@ top: 83.88%;
     align-items: center;
 
     color: #FFFFFF;
+}
+
+.login-button-plus-h {
+    position: absolute;
+    left: 71.4%;
+    top: 45%;
+
+}
+
+.login-button-plus-v {
+    position: absolute;
+    left: 71.4%;
+    top: 45%;
+    transform: rotate(90deg);
+
+
 }
