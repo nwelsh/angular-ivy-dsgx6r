@@ -15,11 +15,12 @@ import { NotificationComponent } from './notification/notification.component';
 import { MeComponent } from './me/me.component';
 import { StoriesComponent } from './stories/stories.component';
 import { EndorsementsComponent } from './endorsements/endorsements.component';
+import { VideoResumeComponent } from './video-resume/video-resume.component';
 
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, HomeComponent, ActionComponent, NetworkComponent, NotificationComponent, MeComponent, StoriesComponent, EndorsementsComponent ],
+  declarations: [ AppComponent, HelloComponent, HomeComponent, ActionComponent, NetworkComponent, NotificationComponent, MeComponent, StoriesComponent, EndorsementsComponent, VideoResumeComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
