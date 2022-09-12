@@ -14,11 +14,12 @@ import { NetworkComponent } from './network/network.component';
 import { NotificationComponent } from './notification/notification.component';
 import { MeComponent } from './me/me.component';
 import { StoriesComponent } from './stories/stories.component';
+import { EndorsementsComponent } from './endorsements/endorsements.component';
 
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, HomeComponent, ActionComponent, NetworkComponent, NotificationComponent, MeComponent, StoriesComponent ],
+  declarations: [ AppComponent, HelloComponent, HomeComponent, ActionComponent, NetworkComponent, NotificationComponent, MeComponent, StoriesComponent, EndorsementsComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
