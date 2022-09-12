@@ -13,11 +13,12 @@ import { ActionComponent } from './action/action.component';
 import { NetworkComponent } from './network/network.component';
 import { NotificationComponent } from './notification/notification.component';
 import { MeComponent } from './me/me.component';
+import { StoriesComponent } from './stories/stories.component';
 
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, HomeComponent, ActionComponent, NetworkComponent, NotificationComponent, MeComponent ],
+  declarations: [ AppComponent, HelloComponent, HomeComponent, ActionComponent, NetworkComponent, NotificationComponent, MeComponent, StoriesComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
