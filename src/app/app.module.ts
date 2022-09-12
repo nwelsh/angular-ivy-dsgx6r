@@ -5,12 +5,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { HelloComponent } from './hello.component';
+
+// added components 
+
 import { HomeComponent } from './home/home.component';
 import { ActionComponent } from './action/action.component';
 import { NetworkComponent } from './network/network.component';
 import { NotificationComponent } from './notification/notification.component';
 import { MeComponent } from './me/me.component';
+
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
