@@ -16,11 +16,12 @@ import { MeComponent } from './me/me.component';
 import { StoriesComponent } from './stories/stories.component';
 import { EndorsementsComponent } from './endorsements/endorsements.component';
 import { VideoResumeComponent } from './video-resume/video-resume.component';
+import { EndorsementsGivenComponent } from './endorsements-given/endorsements-given.component';
 
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, HomeComponent, ActionComponent, NetworkComponent, NotificationComponent, MeComponent, StoriesComponent, EndorsementsComponent, VideoResumeComponent ],
+  declarations: [ AppComponent, HelloComponent, HomeComponent, ActionComponent, NetworkComponent, NotificationComponent, MeComponent, StoriesComponent, EndorsementsComponent, VideoResumeComponent, EndorsementsGivenComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
