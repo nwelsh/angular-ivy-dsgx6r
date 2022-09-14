@@ -194,20 +194,20 @@ body {
 }
 
 #recommended {
-        position: absolute;
-        width: 270px;
-        height: 670px;
-        left: 1035px;
-        top: 83px;
-    
-        /* White */
-    
-        background: #FFFFFF;
-        /* LightGray */
-    
-        border: 1px solid rgba(224, 224, 224, 0.6);
-        border-radius: 8px;
-    }
+    position: absolute;
+    width: 270px;
+    height: 670px;
+    left: 1035px;
+    top: 83px;
+
+    /* White */
+
+    background: #FFFFFF;
+    /* LightGray */
+
+    border: 1px solid rgba(224, 224, 224, 0.6);
+    border-radius: 8px;
+}
 }
 
 #recommended-for-you {
@@ -651,11 +651,12 @@ body {
 
 
 /* RECCOMMENDED */
-.recommended-follow-buttton{
+.recommended-follow-buttton {
     box-sizing: border-box;
 
     position: absolute;
-    left: 82px;;
+    left: 82px;
+    ;
     right: 0%;
 
     /* LightGray */
@@ -664,20 +665,20 @@ body {
     background: #ffffff;
     border-radius: 32px;
     width: 116px;
-    height:36px;
+    height: 36px;
 }
 
-.recommended-follow-button-plus-sign{
+.recommended-follow-button-plus-sign {
     position: absolute;
-    left:20px;
-  
-    top:12px;
+    left: 20px;
+
+    top: 12px;
 }
 
-.follow-button-text{
+.follow-button-text {
     position: absolute;
-    left:44px;
-    top:-8px;
+    left: 44px;
+    top: -8px;
     /* Calibri-Bold-14px */
     width: 38px;
     height: 17px;
@@ -703,14 +704,14 @@ body {
     flex-grow: 0;
 }
 
-.recommended-profile-pic{
-    position:absolute;
-    left:13px;
+.recommended-profile-pic {
+    position: absolute;
+    left: 13px;
 }
 
-.recommended-name{
-    position:absolute;
-    
+.recommended-name {
+    position: absolute;
+
     left: 82px;
 
     /* width: 69px; */
@@ -741,10 +742,10 @@ body {
 }
 
 
-.recommended-description{
-    position:absolute;
-    
-    left:82px;
+.recommended-description {
+    position: absolute;
+
+    left: 82px;
     /* width: /175px; */
     height: 30px;
 
@@ -766,112 +767,112 @@ body {
     flex-grow: 0;
 }
 
-#profile-1 .recommended-profile-pic{
-    
-    top:52px;
+#profile-1 .recommended-profile-pic {
+
+    top: 52px;
 }
 
-#profile-1 .recommended-name{
-    
-    top:40px;
+#profile-1 .recommended-name {
+
+    top: 40px;
 }
 
-#profile-1 .recommended-description{  
-    top:60px;
+#profile-1 .recommended-description {
+    top: 60px;
 }
 
 
-#profile-1 .recommended-follow-buttton{  
+#profile-1 .recommended-follow-buttton {
     top: 114px;
     bottom: 0%;
 }
 
 
-#profile-2 .recommended-profile-pic{
-    
-    top:165px;
+#profile-2 .recommended-profile-pic {
+
+    top: 165px;
 }
 
-#profile-2 .recommended-name{
-    
-    top:153px;
+#profile-2 .recommended-name {
+
+    top: 153px;
 }
 
-#profile-2 .recommended-description{  
-    top:173px;
+#profile-2 .recommended-description {
+    top: 173px;
 }
 
 
-#profile-2 .recommended-follow-buttton{  
+#profile-2 .recommended-follow-buttton {
     top: 227px;
     bottom: 0%;
 }
 
 
-#profile-3 .recommended-profile-pic{
-    
-    top:278px;
+#profile-3 .recommended-profile-pic {
+
+    top: 278px;
 }
 
-#profile-3 .recommended-name{
-    
-    top:286px;
+#profile-3 .recommended-name {
+
+    top: 286px;
 }
 
-#profile-3 .recommended-description{  
-    top:306px;
+#profile-3 .recommended-description {
+    top: 306px;
 }
 
 
-#profile-3 .recommended-follow-buttton{  
+#profile-3 .recommended-follow-buttton {
     top: 340px;
     bottom: 0%;
 }
 
-#profile-4 .recommended-profile-pic{
-    
-    top:391px;
+#profile-4 .recommended-profile-pic {
+
+    top: 391px;
 }
 
-#profile-4 .recommended-name{
-    
-    top:384px;
+#profile-4 .recommended-name {
+
+    top: 384px;
 }
 
-#profile-4 .recommended-description{  
-    top:409px;
+#profile-4 .recommended-description {
+    top: 409px;
 }
 
 
-#profile-4 .recommended-follow-buttton{  
+#profile-4 .recommended-follow-buttton {
     top: 453px;
     bottom: 0%;
 }
 
 
-#profile-5 .recommended-profile-pic{
-    
-    top:504px;
+#profile-5 .recommended-profile-pic {
+
+    top: 504px;
 }
 
-#profile-5 .recommended-name{
-    
-    top:500px;
+#profile-5 .recommended-name {
+
+    top: 500px;
 }
 
-#profile-5 .recommended-description{  
-    top:522px;
+#profile-5 .recommended-description {
+    top: 522px;
 }
 
 
-#profile-5 .recommended-follow-buttton{  
+#profile-5 .recommended-follow-buttton {
     top: 566px;
     bottom: 0%;
 }
 
 
 
-#view-all-recommendations{
+#view-all-recommendations {
     position: absolute;
     width: 170px;
     height: 15px;
@@ -894,4 +895,14 @@ body {
 
     color: rgba(102, 102, 102, 0.6);
 
+}
+
+/* stories */
+
+#story1 {
+    position: absolute;
+    /* changed */
+    left: 0%;
+    /* this was a guess, could change it */
+    top: 12%; 
 }

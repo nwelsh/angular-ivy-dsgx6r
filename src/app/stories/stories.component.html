@@ -127,12 +127,35 @@
     <hr id="bigTag">
     <hr id="currPage" style="left: 25%;">
 
+    <!-- TODO: capture first snapshot? -->
+    <!-- TODO: we should decide the percentages of tehse pixels? -->
+    <div ng-app="stories" ng-controller="storiesController">
+      <img id="story1" src="../Images/stories1.png">
+      <story path="../Images/stories1.png"></story>
+    </div>
 
   </div>
+  
 
   </div>
+  
 
 
 </body>
+
+<!-- trying to do this a different way -->
+<!-- tutorial: https://www.tutorialspoint.com/online_html_editor.php-->
+<script>
+var stories = angular.module("stories", []);
+stories.directive('story',
+function() {
+  var directive = {};
+  directove.restrict = 'E';
+  directive.template = "<img src={{story.path}}>";
+  directive.scope = {
+    story: "=path"
+  }
+})
+</script>
 
 </html>
